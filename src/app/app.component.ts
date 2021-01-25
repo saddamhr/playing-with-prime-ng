@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'prime-ng';
+  boxes: Array<number> = new Array(24);
 }
